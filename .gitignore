@@ -1,0 +1,9 @@
+.gradle/
+build/
+local.properties
+keystore.properties
+keystore/*.jks
+.idea/
+*.iml
+release/
+tdlib-build/out/

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <group android:translateX="30" android:translateY="30">
+        <!-- magnifier ring -->
+        <path android:fillColor="#000000"
+            android:pathData="M20,4a16,16 0,1 0,0.01 0zM20,9a11,11 0,1 1,-0.01 0z" />
+        <!-- play triangle inside -->
+        <path android:fillColor="#000000" android:pathData="M16,13.5v13l10,-6.5z" />
+        <!-- handle -->
+        <path android:fillColor="#000000" android:pathData="M30.5,33.5l4,-4l12,12l-4,4z" />
+    </group>
+</vector>
