@@ -4,6 +4,24 @@ A personal Android Telegram client that searches **videos** across every channel
 joined, shows them in an IMDb-style poster grid with TMDB metadata, and lets you stream or download
 them.
 
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/home.jpg" width="200" alt="Home screen with the search box"/><br/><sub><b>Home</b></sub></td>
+    <td align="center"><img src="docs/screenshots/search-results.jpg" width="200" alt="Poster grid of search results with ratings and quality badges"/><br/><sub><b>Search results</b></sub></td>
+    <td align="center"><img src="docs/screenshots/detail.jpg" width="200" alt="Detail page with rating, plot, cast and available versions"/><br/><sub><b>Title details</b></sub></td>
+    <td align="center"><img src="docs/screenshots/settings-light.jpg" width="200" alt="Settings screen in light theme"/><br/><sub><b>Settings (light theme)</b></sub></td>
+  </tr>
+</table>
+
+- **Search results:** a poster grid with TMDB rating, quality badge and season/episode label.
+- **Title details:** rating, plot, creators, top cast, trailer, and each Telegram version with
+  **Stream** and **Download** buttons.
+- **Settings:** API keys, streaming-cache limit, dark/light/system theme, and logout.
+
+## Tech stack
+
 - Kotlin, Jetpack Compose (Material 3), MVVM
 - Official [TDLib](https://github.com/tdlib/td) 1.8.67 (commit `ea97bcd`), built from source for
   `arm64-v8a` and `armeabi-v7a`
